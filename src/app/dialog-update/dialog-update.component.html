@@ -1,0 +1,10 @@
+<h1 mat-dialog-title>Hi </h1>
+<div mat-dialog-content>
+  <p>DIALOG</p>
+  {{dados.name}}
+  {{dados.animal}}
+  <input [(ngModel)]="dadosInput" >
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No Thanks</button>
+</div>
